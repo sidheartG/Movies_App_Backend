@@ -1,0 +1,23 @@
+{
+  "name": "movies_app_backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dist": "npx tsc",
+    "dev": "nodemon src/index.ts",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.11",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
